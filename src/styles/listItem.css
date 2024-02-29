@@ -1,0 +1,15 @@
+.list-item {
+  position: relative;
+  padding-left: 24px;
+}
+
+.chevron {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M0 192l256 128-256 128z"/></svg>');
+  background-size: cover;
+}
